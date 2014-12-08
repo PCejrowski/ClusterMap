@@ -2,16 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>pl.edu.pg.pcej</groupId>
     <artifactId>pl.edu.pg.pcej.wi.clustermap</artifactId>
-    <name>pl.edu.pg.pcej.wi.clustermap</name>
+    <name>clustermap</name>
 
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     
     <organization>
-        <!-- Used as the 'Vendor' for JNLP generation -->
+        <!-- Used as the 'Vendor' for generation -->
         <name>pcej</name>
     </organization>
 
@@ -20,8 +19,7 @@
     </properties>
 
     <build>
-
-        <finalName>pl.edu.pg.pcej.wi.clustermap</finalName>
+        <finalName>clustermap</finalName>
 
         <plugins>
 
@@ -31,13 +29,12 @@
                 <version>2.0</version>
                 <configuration>
 
-                    <mainClass>pl.edu.pg.pcej.MainApp</mainClass>
+                    <mainClass>pl.edu.pg.pcej.App</mainClass>
 
                     <!-- only required if signing the jar file -->
-                    <keyStoreAlias>example-user</keyStoreAlias>
-                    <keyStorePassword>example-password</keyStorePassword>
+                    <keyStoreAlias>Pawel</keyStoreAlias>
+                    <keyStorePassword>pawel992</keyStorePassword>
                     <allPermissions>true</allPermissions>
-
                 </configuration>
             </plugin>
 
